@@ -26,7 +26,6 @@
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-
         android:hint="@string/default_query"
         android:background="@color/white"
         android:textSize="30sp"
@@ -42,9 +41,10 @@
         android:text="@string/get_weather"
         android:textColor="@color/white"
         android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/getWeatherTV"
         android:layout_below="@+id/backButton"
         android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>
